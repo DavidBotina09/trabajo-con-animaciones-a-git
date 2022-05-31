@@ -50,12 +50,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
-    font-size: 5rem;
     height: 550px;
     background-image: url(../imagenes/fondo-de-pagina-cortes.jpg);
     background-size: cover;
     opacity: 70%;
+}
+.header h1{
+    font-size: 5rem;
+    color: white;
 }
 /* cierre de el header de la pagina */
 .lineas{
@@ -71,7 +73,6 @@
     font-family: 'Tiro Gurmukhi', serif;
 }
 .img_taper{
-    
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -80,6 +81,12 @@
 .img_taper img{
     margin: 1rem;
     border-radius: 30px;
+}
+.img_taper img:hover{
+    transform: scale(1.1,1.1);
+    border-radius: 140px;
+    border: 3px solid black;
+    transition: 0.5s;
 }
 .iframe_taper{
     display: flex;
@@ -90,6 +97,11 @@
 .iframe_taper iframe{
     margin: 1rem;
     border-radius: 30px;
+}
+.iframe_taper iframe:hover{
+    transform: scale(1.1,1.1);
+    border: 3px solid black;
+    transition: 0.5s;
 }
 .expli_taper{
     border: 0.1rem solid gray;

@@ -54,6 +54,7 @@
     font-family: 'Tiro Gurmukhi', serif;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     height: 600px;
     background-image: url(../imagenes/fondo-de-usuario-2.jpg);
