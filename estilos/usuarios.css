@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* navegadora  */
+.navegadora{
+    background-color: black;
+    font-size: 1.5rem;
+}
+.navegadora ul{
+    margin-right: 2%;
+    margin-bottom: 0px ;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 5rem;
+}
+.navegadora ul li{
+    border-radius: 0rem 1rem 0rem 1rem;
+    text-align: center;
+    background-color: black;
+    border: 0.1rem solid white;
+    margin: 1rem;
+    width: 10rem;
+}
+.navegadora:hover{
+    background-color: white;
+    transition:1s;
+}
+.navegadora ul li:hover{
+    background-color: white;
+    border: 0.1rem solid black;
+    transition: 0.2s;
+}
+.navegadora ul li:hover a{
+    color: black;
+    transition: 0.2s;
+}
+.navegadora ul a{
+    color: white;
+}
+/* cierre de navegadora */
+.lineas{
+    border: 0.1rem solid black;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* empieza el header */
+.header{
+    font-family: 'Tiro Gurmukhi', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    background-image: url(../imagenes/fondo-de-usuario-2.jpg);
+    background-size:cover;
+    opacity: 70%;
+}
+header h1{
+    color: white;
+    font-size: 5rem;
+}
+.formulario{
+    width: 50%;
+    padding: 1rem;
+    background-color: gray;
+    color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+}
+/* cierre de el header de la pagina */
+.footer{
+    background-color: black;
+    height: 300px;
+}

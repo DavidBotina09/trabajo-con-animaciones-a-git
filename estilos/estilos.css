@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* navegadora  */
+.navegadora{
+    background-color: black;
+    font-size: 1.5rem;
+}
+.navegadora ul{
+    margin-right: 2%;
+    margin-bottom: 0px ;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 5rem;
+}
+.navegadora ul li{
+    border-radius: 0rem 1rem 0rem 1rem;
+    text-align: center;
+    background-color: black;
+    border: 0.1rem solid white;
+    margin: 1rem;
+    width: 10rem;
+}
+.navegadora:hover{
+    background-color: white;
+    transition:1s;
+}
+.navegadora ul li:hover{
+    background-color: white;
+    border: 0.1rem solid black;
+    transition: 0.2s;
+}
+.navegadora ul li:hover a{
+    color: black;
+    transition: 0.2s;
+}
+.navegadora ul a{
+    color: white;
+}
+/* cierre de navegadora */
+
+/* empieza el header */
+.header{
+    font-family: 'Tiro Gurmukhi', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 5rem;
+    height: 550px;
+    background-image: url(../imagenes/fondo-del-header.jpg);
+    background-size: cover;
+    opacity: 70%;
+}
+/* cierre de el header de la pagina */
+
+/* empieza la section de informacion */
+.informacion{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.informacion h3,
+.informacion p{
+    font-family: 'Tiro Gurmukhi', serif;
+    text-align: center;
+}
+.lineas{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+/* empiezan la section de los beneficios*/
+.beneficios{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+/* cierra la section de beneficios */
+
+/* footer de la pagina */
+.final{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+/* cierra el footer de la pagina */

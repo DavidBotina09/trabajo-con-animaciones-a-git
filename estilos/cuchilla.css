@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* navegadora  */
+.navegadora{
+    background-color: black;
+    font-size: 1.5rem;
+}
+.navegadora ul{
+    margin-right: 2%;
+    margin-bottom: 0px ;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 5rem;
+}
+.navegadora ul li{
+    border-radius: 0rem 1rem 0rem 1rem;
+    text-align: center;
+    background-color: black;
+    border: 0.1rem solid white;
+    margin: 1rem;
+    width: 10rem;
+}
+.navegadora:hover{
+    background-color: white;
+    transition:1s;
+}
+.navegadora ul li:hover{
+    background-color: white;
+    border: 0.1rem solid black;
+    transition: 0.2s;
+}
+.navegadora ul li:hover a{
+    color: black;
+    transition: 0.2s;
+}
+.navegadora ul a{
+    color: white;
+}
+/* cierre de navegadora */
+.lineas{
+    border: 0.1rem solid black;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* empieza el header */
+.header{
+    font-family: 'Tiro Gurmukhi', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 5rem;
+    height: 550px;
+    background-image: url(../imagenes/fondo-de-la-pagina-de-cuchillas.jpg);
+    background-size: cover;
+    opacity: 70%;
+}
+/* cierre de el header de la pagina */
+
+/* empieza la section informacion de cuchillas */
+.info_cuchilla{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.informacion{
+    text-align: center;
+    padding: 1rem;
+}
+.informacion h2{
+    font-family: 'Tiro Gurmukhi', serif;
+}
+.video_info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.video_info iframe{
+    border-radius: 2rem;
+}
+/* termina la section informacion de cuchillas */
+
+/* empieza la section de manejo*/
+.manejo{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+.manejo h2{
+    font-family: 'Tiro Gurmukhi', serif;
+}
+/* termina la section de manejo*/
+.maquina{
+    text-align: center;
+    padding: 2rem;
+}
+.maquina h3{
+    font-family: 'Tiro Gurmukhi', serif;
+}
+.navaja{
+    text-align: center;
+    padding: 2rem;
+}
+.navaja h3{
+    font-family: 'Tiro Gurmukhi', serif;
+}
+
+.explicacion{
+    display: flex;
+    flex-direction: row;
+
+}
+.ejemplos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.ejemplos img,
+.ejemplos iframe{
+    border-radius: 3rem;
+    margin: 1rem;
+
+}
+
