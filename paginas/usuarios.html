@@ -9,11 +9,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>USUARIOS</title>
 </head>
 <body>
     <nav class=" navegadora col-sm-12 col-md-12 col-lg-12 ">
-        <ul>
+        <ul class="animate__animated animate__fadeInLeft">
             <li> <a href="../paginas/index.html">INICIO</a> </li>
             <li> <a href="../paginas/cortes.html">CORTES</a> </li>
             <li> <a href="../paginas/tijeras.html">TIJERAS</a> </li>
@@ -22,28 +23,28 @@
         </ul>
     </nav>
     <header class=" header col-sm-12 col-md-12 col-lg-12" >
-        <h1>
+        <h1 class="animate__animated animate__backInLeft">
             USUARIOS
         </h1>  
     </header>
     <hr class="lineas">
     <main>
-        <section class=" formulario col-sm-12 col-md-12 col-lg-12">
+        <section class="wow animate__animated animate__zoomInDown formulario col-sm-12 col-md-12 col-lg-12">
             <form>
                 <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <label for="exampleInputEmail1" class="form-label">Ingresa tu Email</label>
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  <div id="emailHelp" class="form-text">ingresa un email de contacto para que puedas recibir nuestras ofertas</div>
                 </div>
                 <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <label for="exampleInputPassword1" class="form-label">Contraseña</label>
                   <input type="password" class="form-control" id="exampleInputPassword1">
                 </div>
                 <div class="mb-3 form-check">
                   <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                  <label class="form-check-label" for="exampleCheck1">autoriza guardar los datos</label>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary">guardar</button>
               </form>
         </section>
     </main>
@@ -69,7 +70,10 @@
 
 
 
-
+    <script src="../js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
