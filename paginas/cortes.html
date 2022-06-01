@@ -9,11 +9,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>CORTES DE BARBERIA</title>
 </head>
 <body>
     <nav class=" navegadora col-sm-12 col-md-12 col-lg-12 ">
-        <ul>
+        <ul class="animate__animated animate__fadeInLeft">
             <li> <a href="../paginas/index.html">INICIO</a> </li>
             <li> <a href="../paginas/cortes.html">CORTES</a> </li>
             <li> <a href="../paginas/tijeras.html">TIJERAS</a> </li>
@@ -22,21 +23,21 @@
         </ul>
     </nav>
     <header class=" header col-sm-12 col-md-12 col-lg-12" >
-        <h1>
+        <h1 class="animate__animated animate__backInLeft">
             CORTES DE BARBERIA
         </h1>
     </header>
     <hr class="lineas">
     <section class="taper_fade row col-sm-12 col-md-12 col-lg-12 ">
-        <h1 class=" titulo_taper col-sm-12 col-md-12 col-lg-12">
+        <h1 class="wow animate__animated animate__flipInY titulo_taper col-sm-12 col-md-12 col-lg-12">
             CORTE TAPER FADE
         </h1>
         <div class="img_taper col-sm-12 col-md-6 col-lg-6" >
-            <img src="../imagenes/taper fade.jpg" alt="corte taper fade"
+            <img class="wow animate__animated animate__zoomInLeft" src="../imagenes/taper fade.jpg" alt="corte taper fade"
             width="280px" height="280px">
         </div>
         <div class="iframe_taper  col-sm-12 col-md-6 col-lg-6">
-            <iframe width="480px" height="270px" src="https://www.youtube.com/embed/gj1oygOxeSo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="wow animate__animated animate__zoomInRight" width="480px" height="270px" src="https://www.youtube.com/embed/gj1oygOxeSo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="expli_taper col-sm-12 col-md-12 col-lg-12">        
             <h3>TAPER FADE</h3>
@@ -53,15 +54,15 @@
     </section>
     <hr class="lineas">
     <section class="taper_fade row col-sm-12 col-md-12 col-lg-12 ">
-        <h1 class=" titulo_taper col-sm-12 col-md-12 col-lg-12">
+        <h1 class="wow animate__animated animate__flipInY titulo_taper col-sm-12 col-md-12 col-lg-12">
             CORTE MID FADE
         </h1>
         <div class="img_taper col-sm-12 col-md-6 col-lg-6" >
-            <img src="../imagenes/mid fade.jpg" alt="corte MID FADE"
+            <img class="wow animate__animated animate__zoomInLeft"  src="../imagenes/mid fade.jpg" alt="corte MID FADE"
             width="280px" height="280px">
         </div>
         <div class="iframe_taper  col-sm-12 col-md-6 col-lg-6">
-            <iframe width="480" height="270" src="https://www.youtube.com/embed/g3QGW9_3-7E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="wow animate__animated animate__zoomInRight" width="480" height="270" src="https://www.youtube.com/embed/g3QGW9_3-7E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="expli_taper col-sm-12 col-md-12 col-lg-12">        
             <h3>CORTE MID FADE</h3>
@@ -111,15 +112,15 @@
     </section>
     <hr class="lineas">
     <section class="taper_fade row col-sm-12 col-md-12 col-lg-12 ">
-        <h1 class=" titulo_taper col-sm-12 col-md-12 col-lg-12">
+        <h1 class="wow animate__animated animate__flipInY titulo_taper col-sm-12 col-md-12 col-lg-12">
             CORTE MOHICANO
         </h1>
         <div class="img_taper col-sm-12 col-md-6 col-lg-6" >
-            <img src="../imagenes/mohicano.jpg" alt="corte mohicano"
-            width="280px" height="280px">
+            <img class="wow animate__animated animate__zoomInLeft"  src="../imagenes/mohicano.jpg" alt="corte mohicano"
+            width="280px" height="280px" >
         </div>
         <div class="iframe_taper  col-sm-12 col-md-6 col-lg-6">
-            <iframe width="480" height="270" src="https://www.youtube.com/embed/RqRVfhM8oGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="wow animate__animated animate__zoomInRight" width="480" height="270" src="https://www.youtube.com/embed/RqRVfhM8oGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="expli_taper col-sm-12 col-md-12 col-lg-12">        
             <h3>MOHICANO</h3>
@@ -156,7 +157,10 @@
 
 
 
-
+    <script src="../js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
